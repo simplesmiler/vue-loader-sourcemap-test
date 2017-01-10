@@ -1,0 +1,20 @@
+{
+  "name": "vue-loader-sourcemap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js --devtool inline-sourcemap"
+  },
+  "author": "Denis Karabaza <denis.karabaza@gmail.com> (https://github.com/simplesmiler)",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "vue": "^2.1.8",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^1.14.0"
+  }
+}
